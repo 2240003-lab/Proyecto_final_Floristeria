@@ -1,0 +1,27 @@
+{
+  "name": "proyecto_final_floristeria",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2240003-lab/Proyecto_final_Floristeria.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/2240003-lab/Proyecto_final_Floristeria/issues"
+  },
+  "homepage": "https://github.com/2240003-lab/Proyecto_final_Floristeria#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.8",
+    "express": "^5.2.1",
+    "express-handlebars": "^9.0.1",
+    "handlebars": "^4.7.9"
+  }
+}
