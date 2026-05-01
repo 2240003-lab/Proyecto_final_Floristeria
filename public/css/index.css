@@ -1,0 +1,110 @@
+.inicio{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 150px;
+    height: auto;
+    margin-left: 13px;
+}
+.usuario a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    margin-right: 50px;
+    line-height: 20px;
+}
+.sesion {
+    margin-right: 50px;
+}
+.usuario svg{
+    width: 35px;
+    height: 35px;
+}
+.carrito svg{
+    margin-right: 35px;
+}
+.usuario a:hover{
+    color: #88b67f;
+    transition: color 0.3s ease;
+}
+button{
+    background-color: #f0efef;
+    border: none;
+    width: 40px;
+    height: 45px;
+    padding-right: 40px;
+    border-radius: 0 20px 20px 0;
+    justify-content: center;
+    align-items: center;
+}
+button:hover{
+    background-color: #88b67f;
+    transition: background-color 0.3s ease;
+}
+button:focus{
+    outline: none;
+    background-color: #868686;
+}
+button:active{
+    background-color: #c0c0c0;
+    transition: background-color 0.3s ease;
+}
+button:hover .lupa{
+    color: white;
+}
+button:focus .lupa{
+    color: white;
+}
+button:active .lupa{
+    color: white;
+}
+.buscar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    width: 550px;
+    margin-left: 200px;
+}
+.lupa{
+    background-color: transparent;
+    color: rgb(49, 49, 49);
+    border: 2px solid transparent;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+#buscar{
+    border: none;
+    border-radius: 20px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+    background-color: #f0efef;
+    padding: 5px;
+    width: 100%;
+    border-right: 2px solid white;
+    height: 45px;
+    padding: 5px 15px 5px 15px;
+}
+#buscar:focus{
+    outline: none;
+    border-right: 2px solid #f0efef;
+}
+.barra{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 0;
+    margin-top: 6px;
+    border: #868686 solid 1px;
+}
+.barra a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.barra a:hover{
+    color: #88b67f;
+    transition: color 0.3s ease;
+}

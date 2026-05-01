@@ -1,0 +1,12 @@
+.email {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.email i {
+    position: absolute;
+    left: 140px;
+    top: 50%;
+    transform: translateY(-50%);
+}
