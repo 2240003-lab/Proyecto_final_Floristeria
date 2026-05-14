@@ -3,34 +3,133 @@ body{
     justify-content: center;
     align-items: center;
     background: 
-    linear-gradient(rgba(180, 180, 180, 0.5), rgba(189, 189, 189, 0.5)),
-    url("/public/img/fondo-1.png");
+    linear-gradient(rgba(180, 180, 180, 0.5), rgba(180, 180, 180, 0.5)),
+    url("/public/img/fondo-1.png") no-repeat center / cover;
     background-size: 100%;
+    backdrop-filter: blur(10px);
+    height: 100vh;
+    caret-color: transparent;
 }
 .inicio{
     display: grid;
-    justify-content: center;
     align-content: center;
-    background-color: aliceblue;
+    background-color: #FFFFFF;
     border-radius: 3%;
     border: 1px solid black;
-    padding: 10px;
+    padding: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
 }
 .inicio h1{
     color: black;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
 }
 .logo{
     width: 150px;
     height: 120px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .google{
     width: 40px;
     height: 40px;
+}
+button{
+    width: 400px;
+    height: 40px;
+    border-radius: 20px;
 }
 .google-btn{
     justify-content: center;
     border-radius: 30px;
 }
 .alinear{
+    display: grid;
     justify-content: center;
+    align-items: center;
+}
+.email{
+    margin-bottom: 15px;
+}
+.contra{
+    margin-bottom: 20px;
+}
+input{
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 5px;
+    width: 100%;
+    caret-color: green;
+    color: green;
+}
+input:focus{
+    outline: none;
+    border-color: #4CAF50;
+    box-shadow: 0 0 5px #4CAF50;
+}
+label{
+    font-weight: bold;
+    margin-left: 5px;
+}
+.cualquiera{
+    text-align: center;
+    margin-top: 7px;
+}
+.links{
+    color: #36985B;
+    text-decoration: none;
+}
+.links:hover{
+    text-decoration: underline;
+}
+#iniciar{
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    box-shadow: black 0px 2px 4px;
+    margin-bottom: 12px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+#iniciar:hover{
+    background-color: #3c8540;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+#iniciar:not(:hover){
+    background-color: #4CAF50;
+    transition: background-color 0.3s ease;
+}
+#iniciar:active{
+    background-color: #3e8e41;
+}
+.linea{
+    width: 100%;
+    border-top: 1px solid #d3d3d3;
+    margin: 20px auto;
+    text-align: center;
+    position: relative;
+}
+.linea span{
+    background: #FFFFFF;
+    padding: 0 10px;
+    position: relative;
+    top: -10px;
+    color: #979797;
+    font-size: 18px;
+}
+.google-btn:hover{
+    background-color: #d8d8d8;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.google-btn:active{
+    background-color: #c0c0c0;
+}
+.google-btn:not(:hover){
+    background-color: #f0f0f0;
+    transition: background-color 0.3s ease;
 }
